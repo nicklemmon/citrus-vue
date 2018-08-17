@@ -1,11 +1,10 @@
-import Vue from 'vue';
+import Vue from "vue";
 
-import { storiesOf } from '@storybook/vue';
+import { storiesOf } from "@storybook/vue";
 
-import HelloWorld from '../components/HelloWorld.vue';
+import btn from "../components/btn.vue";
 
-storiesOf( 'MyButton', module )
-  .add('story as a component', () => ({
-    components: { HelloWorld },
-    template: '<hello-world :rounded="true">rounded</hello-world>'
+storiesOf("btn", module).add("story as a component", () => ({
+  components: { btn },
+  template: '<btn content="Click Me" type="primary"/>'
 }));
