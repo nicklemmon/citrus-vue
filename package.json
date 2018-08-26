@@ -13,6 +13,8 @@
     "vue": "^2.5.16"
   },
   "devDependencies": {
+    "@storybook/addon-knobs": "^3.4.10",
+    "@storybook/addon-options": "^3.4.10",
     "@storybook/vue": "^4.0.0-alpha",
     "@vue/cli-plugin-babel": "^3.0.1",
     "@vue/cli-plugin-eslint": "^3.0.1",
@@ -22,6 +24,7 @@
     "@vue/test-utils": "^1.0.0-beta.20",
     "babel-core": "^6.26.3",
     "babel-jest": "^23.0.1",
+    "storybook-readme": "^4.0.0-beta1",
     "vue-template-compiler": "^2.5.16"
   }
 }
