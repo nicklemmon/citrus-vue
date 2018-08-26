@@ -3,10 +3,10 @@ import { configure } from '@storybook/vue';
 import Vue from 'vue';
 
 // Import your custom components.
-import HelloWorld from '../src/components/HelloWorld.vue';
+import CitrButton from '../src/components/CitrButton.vue';
 
 // Register custom components.
-Vue.component( 'hello-world', HelloWorld );
+Vue.component( 'CitrButton', CitrButton );
 
 function loadStories() {
   // You can require as many stories as you need.

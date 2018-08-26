@@ -1,6 +1,6 @@
 <script>
   export default {
-    name: 'Button',
+    name: 'CitrButton',
     props: {
       content: String,
       type: {
@@ -12,17 +12,20 @@
 </script>
 
 <template>
-  <button class='btn' :class="type">
-    {{ content }}
+  <button
+    class='citr-button' 
+    :class='type'
+  >
+    <slot></slot>
   </button>
 </template>
 
-<style scoped>
-  .btn {
-    background: transparent;
+<style>
+  .citr-button {
+    background-color: transparent;
   }
 
-  .primary {
+  .citr-button.primary {
     background-color: blue;
     color: white;
   }

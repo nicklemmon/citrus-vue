@@ -1,10 +1,10 @@
-import Vue from "vue";
+import Vue from 'vue';
 
-import { storiesOf } from "@storybook/vue";
+import { storiesOf } from '@storybook/vue';
 
-import btn from "../components/btn.vue";
+import CitrButton from '../components/CitrButton.vue';
 
-storiesOf("btn", module).add("story as a component", () => ({
-  components: { btn },
-  template: '<btn content="Click Me" type="primary"/>'
+storiesOf( 'Button', module).add('story as a component', () => ({
+  components: { CitrButton },
+  template: '<CitrButton type="primary">Click Me</CitrButton>'
 }));
