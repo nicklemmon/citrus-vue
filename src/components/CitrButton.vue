@@ -27,6 +27,7 @@
     padding: 10px 15px;
     font-size: 1rem;
     border-color: currentColor;
+    cursor: pointer;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.125);
   }
 
