@@ -11,7 +11,7 @@ storiesOf( 'withDocs/As Decorator', module)
   .addDecorator( withKnobs )
   .addDecorator( withDocs( CitrButtonReadme ) )
   .add('Button', () => {
-    const type = select( 'Type', { primary: 'primary', secondary: 'secondary' }, 'primary', 'button-type' );
+    const type = select( 'Type', { primary: 'primary', secondary: 'secondary', tertiary: 'tertiary' }, 'primary', 'type' );
 
     return {
       components: {

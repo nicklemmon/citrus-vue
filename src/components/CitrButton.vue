@@ -27,6 +27,7 @@
     padding: 10px 15px;
     font-size: 1rem;
     border-color: currentColor;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.125);
   }
 
   .citr-button.primary {
@@ -39,6 +40,12 @@
     background-color: white;
     color: blue;
     border-color: blue;
+  }
+
+  .citr-button.tertiary {
+    background-color: white;
+    color: blue;
+    border-color: white;
   }
 </style>
 
